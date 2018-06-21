@@ -1,7 +1,7 @@
 development: &defaults
-  client_id: 44054827399-fgalrsf4iuooofvtqairifbkp862s9ug.apps.googleusercontent.com
-  client_secret: q00q8Z0H2_wfSjmt2-CkRmQW
-  issuer: https://accounts.google.com
+  client_id: 1055906996108-9j83chu1l3dspp3rk37dr4sjdge6eh8h.apps.googleusercontent.com
+  client_secret: yPyY-lvwJPd6WVnpeLu315mu
+  issuer: http://accounts.google.com
   redirect_uri: http://op.dev/connect/google
 
 test:

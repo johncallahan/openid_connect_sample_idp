@@ -12,7 +12,8 @@ gem 'rack-oauth2'
 gem 'openid_connect'
 
 group :development, :test do
-  gem 'sqlite3'
+#  gem 'sqlite3'
+  gem 'pg'
   gem 'test-unit', '~> 3.0'
   gem 'puma'
 end

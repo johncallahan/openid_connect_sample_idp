@@ -1,7 +1,7 @@
 development: &defaults
-  client_id: 131909826902957
-  client_secret: 101c7ebebb894c551bbe9f461bfe9e8f
-  scope: user_birthday, user_location, user_website, email
+  client_id: 245190442893751
+  client_secret: 018af7d21c826d7b3123c4570cd0dc8d
+  scope: user_birthday, user_location, email
 
 test:
   <<: *defaults

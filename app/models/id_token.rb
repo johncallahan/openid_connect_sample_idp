@@ -40,6 +40,7 @@ class IdToken < ActiveRecord::Base
     id_token = OpenIDConnect::ResponseObject::IdToken.new(claims)
     id_token.code = with[:code] if with[:code]
     id_token.access_token = with[:access_token] if with[:access_token]
+    puts id_token
     id_token
   end
 

@@ -1,3 +1,7 @@
+*************************
+YOU MUST rvm ruby-2.3.3 FIRST!!!
+*************************
+
 # OpenIDConnect Sample
 
 A sample OpenID Connect Provider ("OP") using the `openid_connect` gem.
