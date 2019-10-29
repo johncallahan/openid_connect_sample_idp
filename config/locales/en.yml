@@ -17,11 +17,11 @@ en:
     scope: Requested Scopes
   # per controller
   site:
-    title: Nov's OP
+    title: OpenID
     description: Connect Now!
   top:
-    title: Let me try to work with your RP :)
-    description: You can use this app as a sample OP for your RP or sample code for your OP.
+    title: Let's create blockchain credentials for you...
+    description: You can use this app to create blockchain credentials for your GBAId
   dashboard:
     title: Registered Clients
     help:
@@ -36,7 +36,7 @@ en:
   connect:
     fakes:
       new:
-        title: Create Fake Account
+        title: Create Credentials
   # others
   help:
     title: Help

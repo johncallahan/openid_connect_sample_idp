@@ -66,9 +66,9 @@ input:not([type=submit]):invalid {
 }
 
 body > header {
-  background: url("/images/logo.png") no-repeat top left;
+  background: url("/images/sitelogo.png") no-repeat top left;
   color: #666;
-  height: 60px;
+  height: 220px;
   padding: 3px 0 0 70px;
 }
 body > header a {

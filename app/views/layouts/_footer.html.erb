@@ -6,22 +6,16 @@
   <% end %>
   <ul>
     <li>
-      <%= link_to 'OpenID Connect RubyGem', 'https://github.com/nov/openid_connect' %>
+      <%= link_to ENV["SITE_OWNER_NAME"], ENV["SITE_OWNER_URL"] %>
     </li>
     <li>
-      Nov's OP (
-        <%= link_to 'Heroku', 'https://intense-retreat-62302.herokuapp.com' %> /
-        <%= link_to 'GitHub', 'https://github.com/nov/openid_connect_sample' %>
+      <%= ENV["SITE_PARENT_NAME"] %> (
+        <%= link_to 'Home Page', ENV["SITE_PARENT_URL"] %> /
+        <%= link_to 'Contacts', ENV["SITE_PARENT_URL"] %>
       )
     </li>
     <li>
-      Nov's RP (
-        <%= link_to 'Heroku', 'https://connect-rp.herokuapp.com' %> /
-        <%= link_to 'GitHub', 'https://github.com/nov/openid_connect_sample_rp' %>
-      )
-    </li>
-    <li>
-      <small>&copy; <%= link_to 'nov matake', 'https://github.com/nov'%></small>
+      <small>&copy; <%= link_to ENV["SITE_DEV_NAME"], ENV["SITE_DEV_URL"] %></small>
     </li>
   </ul>
 </footer>
