@@ -6,4 +6,4 @@ test:
 
 production:
   <<: *defaults
-  issuer: https://connect-op.herokuapp.com
+  issuer: https://intense-retreat-62302.herokuapp.com

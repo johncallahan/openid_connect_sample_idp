@@ -27,12 +27,12 @@ Also of interest, the corresponding sample RP:
 
 ## Live Example
 
-Nov has this sample running on Heroku: https://connect-op.herokuapp.com
+Nov has this sample running on Heroku: https://intense-retreat-62302.herokuapp.com
 
 To see it in action right now:
 
 * visit [Nov's Sample RP on Heroku](https://connect-rp.herokuapp.com)
-* enter `connect-op.herokuapp.com` in the form
+* enter `intense-retreat-62302.herokuapp.com` in the form
 * press "Discover"
 * the RP will use the OP to authenticate
 

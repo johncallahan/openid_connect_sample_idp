@@ -1,4 +1,4 @@
-HOST: https://connect-op.herokuapp.com/
+HOST: https://intense-retreat-62302.herokuapp.com/
 
 --- OpenID Connect Provider API ---
 ---
@@ -13,7 +13,7 @@ NOTE: This step can be skipped once the response cached.
 GET /.well-known/simple-web-discovery?service=http://openid.net/specs/connect/1.0/issuer&principal=<url-or-email>
 < 200
 < Content-Type: application/json
-{"locations": ["https://connect-op.herokuapp.com"]}
+{"locations": ["https://intense-retreat-62302.herokuapp.com"]}
 
 [Step 2] If it's OpenID Connect IdP, get OpenID Connect Provider configuration.
 NOTE: This step can be skipped once the response cached.
@@ -22,17 +22,17 @@ GET /.well-known/openid-configuration
 < Content-Type: application/json
 {
   "version": "3.0",
-  "issuer": "https://connect-op.herokuapp.com",
-  "authorization_endpoint": "https://connect-op.herokuapp.com/authorizations/new",
-  "token_endpoint": "https://connect-op.herokuapp.com/access_tokens",
-  "userinfo_endpoint": "https://connect-op.herokuapp.com/user_info",
-  "registration_endpoint": "https://connect-op.herokuapp.com/connect/client",
+  "issuer": "https://intense-retreat-62302.herokuapp.com",
+  "authorization_endpoint": "https://intense-retreat-62302.herokuapp.com/authorizations/new",
+  "token_endpoint": "https://intense-retreat-62302.herokuapp.com/access_tokens",
+  "userinfo_endpoint": "https://intense-retreat-62302.herokuapp.com/user_info",
+  "registration_endpoint": "https://intense-retreat-62302.herokuapp.com/connect/client",
   "scopes_supported": ["openid", "profile", "email", "address", "phone"],
   "response_types_supported": ["code", "token", "id_token", "code token", "code id_token", "id_token token", "code id_token token"],
   "user_id_types_supported": ["public", "pairwise"],
   "id_token_algs_supported": ["RS256"],
-  "x509_url": "https://connect-op.herokuapp.com/cert.pem",
-  "jwk_url": "https://connect-op.herokuapp.com/jwk.json"
+  "x509_url": "https://intense-retreat-62302.herokuapp.com/cert.pem",
+  "jwk_url": "https://intense-retreat-62302.herokuapp.com/jwk.json"
 }
 
 

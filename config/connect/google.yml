@@ -9,4 +9,4 @@ test:
 
 production:
   <<: *defaults
-  redirect_uri: https://connect-op.herokuapp.com/connect/google
+  redirect_uri: https://intense-retreat-62302.herokuapp.com/connect/google
